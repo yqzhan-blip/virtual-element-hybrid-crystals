@@ -175,7 +175,7 @@ add_paragraph(doc, "**Decoding**: For each virtual site, we estimate cavity radi
 
 # ===== FIGURE 1: Pipeline (original style) =====
 add_image(doc, 
-    os.path.join(BASE_DIR, "figures", "figure_1_pipeline.png"),
+    os.path.join(BASE_DIR, "figures", "figure_1_framework.png"),
     width=Inches(5.5),
     caption="Figure 1. Overview of the virtual-element generation and decoding pipeline. (a) Training: the pretrained MatterGen model is fine-tuned on a hybrid-structure dataset using an extended atom-type index space (401 slots, with 12 active virtual-element classes X201–X212) and adapter layers. (b) Generation: the fine-tuned model produces coarse-grained structures containing virtual elements (X201–X212). (c) Validation: virtual sites are decoded to full-atom organic cations using a precomputed 3D molecular template library, followed by charge-balance filtering and screening. The 401-slot index space includes reserved masked regions; only X201–X212 are active virtual classes in this study.")
 
@@ -216,7 +216,7 @@ add_paragraph(doc, "The most common net charges in unbalanced structures were \u
 
 # ===== FIGURE 2: Statistics =====
 add_image(doc, 
-    os.path.join(BASE_DIR, "figures_nature", "figure_2_statistics.png"),
+    os.path.join(BASE_DIR, "figures", "figure_2_statistics.png"),
     width=Inches(5.5),
     caption="Fig. 2 | Generation statistics and charge-neutrality filtering. a, Generation and filtering pipeline funnel showing 1,000 D3PM samples, 954 decoded structures, 106 charge-neutral hybrids and 50 halide-containing candidates (47.2% of charge-neutral hybrids). b, Net charge distribution of 954 decoded structures; 106 (11.1%) satisfy charge neutrality (Q = 0). c, Top five imbalance modes among unbalanced structures, dominated by negative net charges indicating insufficient cationic charge compensation or excess anionic components. d, Virtual element usage distribution across 2,251 virtual sites, with X203 (Sp2D-alkyl) and X204 (Sp2D-aromatic) being the most frequent.")
 
@@ -229,7 +229,7 @@ add_paragraph(doc, "**Preliminary energy ranking.** CHGNet single-point energies
 
 # ===== FIGURE 3: Diversity =====
 add_image(doc, 
-    os.path.join(BASE_DIR, "figures_nature", "figure_3_diversity.png"),
+    os.path.join(BASE_DIR, "figures", "figure_3_diversity.png"),
     width=Inches(5.5),
     caption="Fig. 3 | Chemical diversity of charge-neutral halide-containing hybrid structures. a, Metal center distribution across 50 halide structures, with Ni (7), Mn (6) and Be (5) being most frequent. b, Halide anion occurrence distribution, with Br (18 occurrences) and I (15) most common; percentages sum to slightly above 100% because one structure contains both Br and Cl. c, Organic template class distribution within the halide subset; TriA (X210), PentaHexaA (X212), and DiA-alkyl (X208) are the most frequent classes. d, Metal–halide co-occurrence heatmap showing structural diversity across the periodic table. e, Organic class versus halide co-occurrence heatmap, showing the preferential pairing of higher-charge and rod-like templates with bromides and iodides.")
 
@@ -258,7 +258,7 @@ add_paragraph(doc, "The full list of 50 halide structures with complete property
 
 # ===== FIGURE 4: Screening =====
 add_image(doc, 
-    os.path.join(BASE_DIR, "figures_nature", "figure_4_screening.png"),
+    os.path.join(BASE_DIR, "figures", "figure_4_screening.png"),
     width=Inches(5.5),
     caption="Fig. 4 | Preliminary screening landscape of halide-containing candidates. a, CHGNet single-point energy versus band-gap proxy for 50 halide structures, colour-coded by halide type and sized by DFT selection. Low-energy candidates include crystal_0217, crystal_0672, crystal_0912 and crystal_0631, whereas positive-energy candidates include crystal_0248 and crystal_0283. CHGNet energies are single-point predictions and are not formation energies. b, CHGNet energy distribution, spanning from −4.99 to +1.67 eV/atom (median = −3.0 eV/atom). c, Distribution of band-gap proxy estimates, showing bimodal behaviour with peaks at narrow gaps (~0.2–0.5 eV, transition-metal halides) and wide gaps (>2 eV, alkali/alkaline-earth halides and organic fluorides).")
 
@@ -287,7 +287,7 @@ add_paragraph(doc, "The diversity of electronic behavior\u2014ranging from metal
 
 # ===== FIGURE 5: DFT Assessment =====
 add_image(doc, 
-    os.path.join(BASE_DIR, "figures_nature", "figure_5_dft.png"),
+    os.path.join(BASE_DIR, "figures", "figure_5_dft.png"),
     width=Inches(5.5),
     caption="Fig. 5 | DFT-PBE single-point assessment of ten representative structures. a, DFT-PBE indirect band gap versus CHGNet energy for the ten selected candidates, colour-coded by band-gap type (metallic, indirect, direct). Metallic structures with negative indirect gaps are plotted at zero gap for visualization. b, Direct versus indirect band-gap comparison for the seven semiconducting structures, showing that crystal_0626 (V bromide) is the only direct-gap candidate (0.78 eV), while all others are indirect. c, Total density of states (DOS) for crystal_0631 (CsH$_{6}$CBr$_{2}$N), with the Fermi level indicated by a dashed line. d, Band-energy distribution of crystal_0631 over the sampled 4×4×4 k-point grid (112 k-points). All DFT calculations are non-spin-polarized single-point PBE calculations on as-generated structures.")
 
@@ -366,13 +366,10 @@ print(f"Saved: {output_path}")
 
 # Verify
 print("\nFigure insertion verification:")
-fig_names = ["figure_1_pipeline.png", "figure_2_statistics.png", 
+fig_names = ["figure_1_framework.png", "figure_2_statistics.png", 
              "figure_3_diversity.png", "figure_4_screening.png",
              "figure_5_dft.png"]
 for fn in fig_names:
-    if fn == "figure_1_pipeline.png":
-        p = os.path.join(BASE_DIR, "figures", fn)
-    else:
-        p = os.path.join(BASE_DIR, "figures_nature", fn)
+    p = os.path.join(BASE_DIR, "figures", fn)
     print(f"  {'OK' if os.path.exists(p) else 'MISSING'}: {fn}")
 print("\nDone!")
