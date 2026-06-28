@@ -8,7 +8,7 @@ Yiqiang Zhan$^{1,2*}$
 
 $^{1}$ The State Key Laboratory of Photovoltaic Science and Technology, College of Future Information Technology, Fudan University, Shanghai 200438, China  
 $^{2}$ Institute of Optoelectronics, Fudan University, Shanghai 200438, China  
-$^{*}$ Corresponding author: zhan@fudan.edu.cn
+$^{*}$ Corresponding author: yqzhan@fudan.edu.cn
 
 # Abstract
 

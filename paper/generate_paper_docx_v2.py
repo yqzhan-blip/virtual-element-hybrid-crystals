@@ -120,7 +120,7 @@ add_formatted_runs(p, "$^{2}$ Institute of Optoelectronics, Fudan University, Sh
 
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-add_formatted_runs(p, "$^{*}$ Corresponding author: zhan@fudan.edu.cn", size=10)
+add_formatted_runs(p, "$^{*}$ Corresponding author: yqzhan@fudan.edu.cn", size=10)
 
 doc.add_paragraph()
 

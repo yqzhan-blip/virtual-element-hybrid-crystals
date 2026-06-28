@@ -149,4 +149,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Contact
 
-Yiqiang Zhan — zhan@fudan.edu.cn
+Yiqiang Zhan — yqzhan@fudan.edu.cn
