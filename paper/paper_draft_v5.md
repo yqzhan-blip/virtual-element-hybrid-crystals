@@ -250,7 +250,7 @@ Beyond the specific candidates identified here, this work establishes a transfer
 
 ## Data and Code Availability
 
-All generated structures, analysis scripts, and DFT input/output files are available in the `paper_results/` directory. The training dataset was constructed from publicly available hybrid crystal structures, including perovskite-related and other framework templates, together with synthetically generated combinations. The pretrained MatterGen weights are available through Microsoft Research at [URL]. Modified code including ExtendedAtomEmbedding, virtual element definitions, and decoding scripts is available at https://github.com/yqzhan-blip/virtual-element-hybrid-crystals and archived at [Zenodo DOI].
+All generated structures, analysis scripts, and DFT input/output files are available in the `paper_results/` directory. The training dataset was constructed from publicly available hybrid crystal structures, including perovskite-related and other framework templates, together with synthetically generated combinations. The pretrained MatterGen weights are available through Microsoft Research at [URL]. Modified code including ExtendedAtomEmbedding, virtual element definitions, and decoding scripts is available at https://github.com/yqzhan-blip/virtual-element-hybrid-crystals.
 
 ## Acknowledgments
 

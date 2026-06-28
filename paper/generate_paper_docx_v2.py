@@ -317,7 +317,7 @@ add_paragraph(doc, "Beyond the specific candidates identified here, this work es
 
 # Data and Code Availability
 add_heading(doc, "Data and Code Availability", level=1)
-add_paragraph(doc, "All generated structures, analysis scripts, and DFT input/output files are available in the paper_results/ directory. The training dataset was constructed from publicly available hybrid crystal structures, including perovskite-related and other framework templates, together with synthetically generated combinations. The pretrained MatterGen weights are available through Microsoft Research. Modified code including ExtendedAtomEmbedding, virtual element definitions, and decoding scripts is available at https://github.com/yqzhan-blip/virtual-element-hybrid-crystals and archived at [Zenodo DOI].")
+add_paragraph(doc, "All generated structures, analysis scripts, and DFT input/output files are available in the paper_results/ directory. The training dataset was constructed from publicly available hybrid crystal structures, including perovskite-related and other framework templates, together with synthetically generated combinations. The pretrained MatterGen weights are available through Microsoft Research. Modified code including ExtendedAtomEmbedding, virtual element definitions, and decoding scripts is available at https://github.com/yqzhan-blip/virtual-element-hybrid-crystals.")
 
 # Acknowledgments
 add_heading(doc, "Acknowledgments", level=1)
