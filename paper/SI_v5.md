@@ -265,7 +265,7 @@ Figures S1–S20 show the electronic structure of all ten calculated structures.
 All input and output files are organized in the following directory structure:
 
 ```
-paper_results/dft_inputs/
+paper/dft_inputs/
 ├── crystal_0742_band/
 │   ├── scf/crystal_0742_decoded.scf.in
 │   ├── scf/crystal_0742_decoded.scf.out

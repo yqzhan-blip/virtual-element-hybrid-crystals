@@ -30,6 +30,9 @@ wfc*
 *.UPF
 pseudos/
 
+# Full DFT input/output directories (too large for GitHub; templates only in data/dft_inputs/)
+paper/dft_inputs/
+
 # Local OS files
 .DS_Store
 Thumbs.db

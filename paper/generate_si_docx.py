@@ -332,7 +332,7 @@ add_paragraph(doc, "6. Band gap definition: The strict occupation threshold (0.9
 # S2.8 File Paths
 add_heading(doc, "S2.8 Computational File Paths", level=2)
 add_paragraph(doc, "All input and output files are organized in the following directory structure:")
-add_paragraph(doc, "paper_results/dft_inputs/")
+add_paragraph(doc, "paper/dft_inputs/")
 add_paragraph(doc, "\u251c\u2500\u2500 crystal_0742_band/")
 add_paragraph(doc, "\u2502   \u251c\u2500\u2500 scf/crystal_0742_decoded.scf.in")
 add_paragraph(doc, "\u2502   \u251c\u2500\u2500 scf/crystal_0742_decoded.scf.out")
