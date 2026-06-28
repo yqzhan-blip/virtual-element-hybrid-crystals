@@ -317,11 +317,19 @@ add_paragraph(doc, "Beyond the specific candidates identified here, this work es
 
 # Data and Code Availability
 add_heading(doc, "Data and Code Availability", level=1)
-add_paragraph(doc, "All generated structures, analysis scripts, and DFT input/output files are available in the paper_results/ directory. The training dataset was constructed from publicly available hybrid crystal structures, including perovskite-related and other framework templates, together with synthetically generated combinations. The pretrained MatterGen weights are available through Microsoft Research. Modified code including ExtendedAtomEmbedding, virtual element definitions, and decoding scripts is available at [GitHub repository] and archived at [Zenodo DOI].")
+add_paragraph(doc, "All generated structures, analysis scripts, and DFT input/output files are available in the paper_results/ directory. The training dataset was constructed from publicly available hybrid crystal structures, including perovskite-related and other framework templates, together with synthetically generated combinations. The pretrained MatterGen weights are available through Microsoft Research. Modified code including ExtendedAtomEmbedding, virtual element definitions, and decoding scripts is available at https://github.com/yqzhan-blip/virtual-element-hybrid-crystals and archived at [Zenodo DOI].")
 
 # Acknowledgments
 add_heading(doc, "Acknowledgments", level=1)
 add_paragraph(doc, "The authors acknowledge funding support from the Shanghai Science and Technology Innovation Action Plan (No. 24DZ3001200), the National Natural Science Foundation of China (No. 62304046 and No. 62274040), and the Basic Research Project of State Key Laboratory of Photovoltaic Science and Technology (No. 202401020302).")
+
+# Author Contributions
+add_heading(doc, "Author Contributions", level=1)
+add_paragraph(doc, "Y.Z. conceived the project, designed the virtual-element framework, implemented the model extensions and decoding pipeline, performed generation and DFT validation, analyzed the data, and wrote the manuscript.")
+
+# Competing Interests
+add_heading(doc, "Competing Interests", level=1)
+add_paragraph(doc, "The authors declare no competing interests.")
 
 # References
 add_heading(doc, "References", level=1)
