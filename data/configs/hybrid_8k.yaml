@@ -1,0 +1,43 @@
+_target_: mattergen.common.data.datamodule.CrystDataModule
+_recursive_: true
+properties: []
+
+dataset_transforms: []
+
+transforms:
+- _target_: mattergen.common.data.transform.symmetrize_lattice
+  _partial_: true
+- _target_: mattergen.common.data.transform.set_chemical_system_string
+  _partial_: true
+
+# Virtual elements occupy ~27x the volume of real atoms (r~3.0A vs r~1.0A)
+# Reduce effective density to account for larger organic cations
+average_density: 0.015
+
+root_dir: ${oc.env:PROJECT_ROOT}/../datasets/hybrid_8k
+
+train_dataset:
+  _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+  cache_path: ${data_module.root_dir}/train
+  properties: ${data_module.properties}
+  transforms: ${data_module.transforms}
+  dataset_transforms: ${data_module.dataset_transforms}
+
+val_dataset:
+  _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+  cache_path: ${data_module.root_dir}/val
+  properties: ${data_module.properties}
+  transforms: ${data_module.transforms}
+  dataset_transforms: ${data_module.dataset_transforms}
+
+# Larger batch sizes for larger dataset (14000 training structures)
+batch_size:
+  train:  32
+  val:    32
+
+num_workers:
+  train: 0
+  val: 0
+
+# Fine-tuning needs fewer epochs than full training
+max_epochs: 200

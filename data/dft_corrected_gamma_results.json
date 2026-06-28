@@ -1,0 +1,102 @@
+{
+  "0742": {
+    "formula": "NiH8C3I3N",
+    "metal": "Ni",
+    "halide": "I",
+    "total_energy": -1564.83324658,
+    "n_iter": 15,
+    "fermi": 1.8802,
+    "gap_gamma": 0.3486,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0789": {
+    "formula": "NiH8C3I3N",
+    "metal": "Ni",
+    "halide": "I",
+    "total_energy": -1564.84828388,
+    "n_iter": 13,
+    "fermi": 3.4163,
+    "gap_gamma": 0.44819999999999993,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0391": {
+    "formula": "Mg2H12C2I6N2",
+    "metal": "Mg",
+    "halide": "I",
+    "total_energy": -2430.56322168,
+    "n_iter": 14,
+    "fermi": 1.8557,
+    "gap_gamma": 0.17470000000000008,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0631": {
+    "formula": "CsH6CBr2N",
+    "metal": "Cs",
+    "halide": "Br",
+    "total_energy": -202.72591118,
+    "n_iter": 8,
+    "fermi": 0.5246,
+    "gap_gamma": 2.4911,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0912": {
+    "formula": "KH8C3NF2",
+    "metal": "K",
+    "halide": "F",
+    "total_energy": -293.64198036,
+    "n_iter": 12,
+    "fermi": 4.268,
+    "gap_gamma": 5.5085,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0217": {
+    "formula": "MnH8C3I3N",
+    "metal": "Mn",
+    "halide": "I",
+    "total_energy": -1432.58169939,
+    "n_iter": 14,
+    "fermi": 4.6682,
+    "gap_gamma": 1.5027,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0672": {
+    "formula": "FeH8C3Br3N",
+    "metal": "Fe",
+    "halide": "Br",
+    "total_energy": -554.42417792,
+    "n_iter": 16,
+    "fermi": 4.0378,
+    "gap_gamma": 1.6554000000000002,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0927": {
+    "formula": "CoH12C2N2Cl4",
+    "metal": "Co",
+    "halide": "Cl",
+    "total_energy": -516.60041955,
+    "n_iter": 12,
+    "fermi": 2.2443,
+    "gap_gamma": 1.4143000000000001,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0626": {
+    "formula": "VH11C2Br6N3",
+    "metal": "V",
+    "halide": "Br",
+    "total_energy": -534.12129881,
+    "n_iter": 32,
+    "fermi": -2.6329,
+    "gap_gamma": 0.7831999999999999,
+    "type": "\u534a\u5bfc\u4f53"
+  },
+  "0632": {
+    "formula": "CrH11C2Br6N3",
+    "metal": "Cr",
+    "halide": "Br",
+    "total_energy": -565.25409078,
+    "n_iter": 36,
+    "fermi": -2.0167,
+    "gap_gamma": 0.5343000000000002,
+    "type": "\u534a\u5bfc\u4f53"
+  }
+}

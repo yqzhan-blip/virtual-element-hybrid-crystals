@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# WorkBuddy local files
+.workbuddy/
+
+# Large archives
+*.zip
+*.tar.gz
+*.tar
+
+# Large data / models
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# DFT large outputs
+*.scf.out
+*.save/
+charge-density.dat
+wfc*
+
+# Pseudopotentials (large, publicly available)
+*.UPF
+pseudos/
+
+# Local OS files
+.DS_Store
+Thumbs.db

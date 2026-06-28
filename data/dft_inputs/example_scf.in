@@ -1,0 +1,40 @@
+&CONTROL
+    calculation = 'scf'
+    prefix = 'hybrid_crystal'
+    outdir = './outdir'
+    pseudo_dir = './pseudos'
+    tprnfor = .true.
+    tstress = .true.
+/
+&SYSTEM
+    ibrav = 0
+    nat = 20
+    ntyp = 4
+    ecutwfc = 50
+    ecutrho = 400
+    occupations = 'smearing'
+    smearing = 'gaussian'
+    degauss = 0.01
+/
+&ELECTRONS
+    conv_thr = 1.0d-8
+    mixing_beta = 0.4
+/
+ATOMIC_SPECIES
+    Pb  207.2   Pb.pbe-dn-kjpaw_psl.0.2.2.UPF
+    I   126.9   I.pbe-n-kjpaw_psl.0.2.UPF
+    C   12.0    C.pbe-n-kjpaw_psl.0.1.UPF
+    N   14.0    N.pbe-n-kjpaw_psl.0.1.UPF
+
+ATOMIC_POSITIONS crystal
+    Pb 0.000000 0.000000 0.000000
+    I  0.500000 0.500000 0.000000
+    ...
+
+K_POINTS automatic
+    4 4 4 0 0 0
+
+CELL_PARAMETERS angstrom
+    6.0 0.0 0.0
+    0.0 6.0 0.0
+    0.0 0.0 6.0

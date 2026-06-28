@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SnTeH12C4SN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.21706341
+_cell_length_b   4.08160632
+_cell_length_c   4.47288704
+_cell_angle_alpha   89.81780720
+_cell_angle_beta   90.02145613
+_cell_angle_gamma   90.03479706
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnTeH12C4SN
+_chemical_formula_sum   'Sn1 Te1 H12 C4 S1 N1'
+_cell_volume   58.73221223
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.32452154  0.31748089  0.01098430  1
+  C  C1  1  0.37284763  0.53259733  0.01098430  1
+  C  C2  1  0.62991259  0.59167701  0.01098430  1
+  C  C3  1  0.67889618  0.80972021  0.01098430  1
+  C  C4  1  0.93596113  0.86879989  0.01098430  1
+  H  H5  1  0.49904572  0.27827388  0.96445036  1
+  H  H6  1  0.26388811  0.45561794  0.96445036  1
+  H  H7  1  0.21063078  0.21855085  0.96445036  1
+  H  H8  1  0.38369635  0.58088878  0.13279372  1
+  H  H9  1  0.38369635  0.58088878  0.88917488  1
+  H  H10  1  0.79086102  0.50940288  0.13279372  1
+  H  H11  1  0.79086102  0.50940288  0.88917488  1
+  H  H12  1  0.51794774  0.89199434  0.13279372  1
+  H  H13  1  0.51794774  0.89199434  0.88917488  1
+  H  H14  1  0.09690956  0.78652576  0.88917488  1
+  H  H15  1  0.09690956  0.78652576  0.13279372  1
+  H  H16  1  0.96817852  0.01221085  0.01098430  1
+  Sn  Sn3  1  0.81397974  0.82214922  0.51265383  1.0
+  Te  Te1  1  0.84780461  0.81849277  0.00410877  1.0
+  S  S2  1  0.81948078  0.31659770  0.51128232  1.0

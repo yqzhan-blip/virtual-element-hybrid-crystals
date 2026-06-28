@@ -1,0 +1,175 @@
+[
+  {
+    "name": "crystal_0143_decoded",
+    "formula": "Be1 Cd1 H12 C2 Br5 N2 Cl1",
+    "metals": [
+      "Be",
+      "Cd"
+    ],
+    "halides": [
+      "Br",
+      "Cl"
+    ],
+    "metal_count": 2.0,
+    "halide_count": 6.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "DiA-alkyl (EDA)",
+    "volume": 536.1137672356267,
+    "n_atoms": 24
+  },
+  {
+    "name": "crystal_0217_decoded",
+    "formula": "Mn1 H8 C3 I3 N1",
+    "metals": [
+      "Mn"
+    ],
+    "halides": [
+      "I"
+    ],
+    "metal_count": 1.0,
+    "halide_count": 3.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "Sp2D-alkyl (BA/HA)",
+    "volume": 207.7376146911921,
+    "n_atoms": 16
+  },
+  {
+    "name": "crystal_0273_decoded",
+    "formula": "Ni2 H12 C2 Br6 N2",
+    "metals": [
+      "Ni"
+    ],
+    "halides": [
+      "Br"
+    ],
+    "metal_count": 2.0,
+    "halide_count": 6.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "DiA-alkyl (EDA)",
+    "volume": 556.3025883502755,
+    "n_atoms": 24
+  },
+  {
+    "name": "crystal_0391_decoded",
+    "formula": "Mg2 H12 C2 I6 N2",
+    "metals": [
+      "Mg"
+    ],
+    "halides": [
+      "I"
+    ],
+    "metal_count": 2.0,
+    "halide_count": 6.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "DiA-alkyl (EDA)",
+    "volume": 547.4842230251236,
+    "n_atoms": 24
+  },
+  {
+    "name": "crystal_0672_decoded",
+    "formula": "Fe1 H8 C3 Br3 N1",
+    "metals": [
+      "Fe"
+    ],
+    "halides": [
+      "Br"
+    ],
+    "metal_count": 1.0,
+    "halide_count": 3.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "Sp2D-alkyl (BA/HA)",
+    "volume": 182.28803975700959,
+    "n_atoms": 16
+  },
+  {
+    "name": "crystal_0725_decoded",
+    "formula": "Mn1 Be1 H5 C1 I6 N2",
+    "metals": [
+      "Mn",
+      "Be"
+    ],
+    "halides": [
+      "I"
+    ],
+    "metal_count": 2.0,
+    "halide_count": 6.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "DiA-alkyl (EDA)",
+    "volume": 1093.3158241472815,
+    "n_atoms": 16
+  },
+  {
+    "name": "crystal_0742_decoded",
+    "formula": "Ni1 H8 C3 I3 N1",
+    "metals": [
+      "Ni"
+    ],
+    "halides": [
+      "I"
+    ],
+    "metal_count": 1.0,
+    "halide_count": 3.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "Sp2D-alkyl (BA/HA)",
+    "volume": 262.6456895108058,
+    "n_atoms": 16
+  },
+  {
+    "name": "crystal_0789_decoded",
+    "formula": "Ni1 H8 C3 I3 N1",
+    "metals": [
+      "Ni"
+    ],
+    "halides": [
+      "I"
+    ],
+    "metal_count": 1.0,
+    "halide_count": 3.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "Sp2D-alkyl (BA/HA)",
+    "volume": 216.8738742076328,
+    "n_atoms": 16
+  },
+  {
+    "name": "crystal_0846_decoded",
+    "formula": "Be4 H24 C4 I12 N4",
+    "metals": [
+      "Be"
+    ],
+    "halides": [
+      "I"
+    ],
+    "metal_count": 4.0,
+    "halide_count": 12.0,
+    "ratio": 3.0,
+    "is_perovskite_like": true,
+    "template_type": "TetraA (TETA)",
+    "volume": 629.1493018481926,
+    "n_atoms": 48
+  },
+  {
+    "name": "crystal_0310_decoded",
+    "formula": "Ca4 H18 C3 Br11 N3",
+    "metals": [
+      "Ca"
+    ],
+    "halides": [
+      "Br"
+    ],
+    "metal_count": 4.0,
+    "halide_count": 11.0,
+    "ratio": 2.75,
+    "is_perovskite_like": true,
+    "template_type": "TriA (TAPA)",
+    "volume": 748.4384683466049,
+    "n_atoms": 39
+  }
+]
