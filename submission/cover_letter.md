@@ -10,12 +10,6 @@ We believe this work is particularly suitable for *npj Computational Materials* 
 
 This manuscript is original, has not been published previously, and is not under consideration elsewhere. All authors have approved the submission.
 
-We suggest the following experts as potential reviewers:
-
-1. [Reviewer 1 name and institution — optional]
-2. [Reviewer 2 name and institution — optional]
-3. [Reviewer 3 name and institution — optional]
-
 Please let us know if any additional information is required.
 
 Sincerely,
