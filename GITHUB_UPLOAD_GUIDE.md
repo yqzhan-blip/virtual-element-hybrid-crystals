@@ -93,11 +93,42 @@ A virtual-element framework extending pretrained inorganic crystal diffusion mod
 - **Massive raw CIF collections** from intermediate generations. Keep only representative samples.
 - **DFT pseudopotential files** (e.g., SSSP UPF files) — these are large and publicly downloadable.
 - **Large DFT output files** (`.scf.out`, charge density files, WFC files).
+- **Full DFT input/output directories** (e.g., `dft_inputs/crystal_*_band/` with `.save/` folders) — only input templates are included.
 - **`.workbuddy/`**, `__pycache__/`, `.pipcache/`, `.pytest_cache/`.
 - **Large zip archives**: `mattergen-main.zip`, `stoned-selfies-main.zip`, `paper_results.zip`.
 - **Personal/memory logs** in `.workbuddy/memory/`.
 - **Credentials, API keys, or private tokens**.
 - **Binary executables** (e.g., `pw.exe` paths in configs should be local-only).
+
+## Local Repository Prepared for Push
+
+A local git repository has been prepared at:
+
+```
+D:/virtual-element-hybrid-crystals/
+```
+
+It is already initialized and committed. To push to GitHub, see the commands below.
+
+## Push to GitHub
+
+### Option A: Let me push automatically
+
+Provide your GitHub username and a personal access token (PAT) with `repo` scope.
+
+### Option B: Push manually
+
+1. Create the repository on GitHub (web interface).
+2. Run:
+
+```bash
+cd D:/virtual-element-hybrid-crystals
+git branch -m main
+git remote add origin https://github.com/YOUR_USERNAME/virtual-element-hybrid-crystals.git
+# For HTTPS with PAT:
+# git remote add origin https://YOUR_USERNAME:YOUR_PAT@github.com/YOUR_USERNAME/virtual-element-hybrid-crystals.git
+git push -u origin main
+```
 
 ## Suggested Top-Level Repository Structure
 
