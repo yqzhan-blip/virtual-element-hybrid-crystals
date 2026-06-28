@@ -495,4 +495,10 @@ Only 1 structure (crystal_0627) failed CIF parsing due to occupancy > 1.0 (inval
 
 ---
 
+## Data and Code Availability
+
+All source code, generated structures, analysis scripts, and DFT input templates are available at https://github.com/yqzhan-blip/virtual-element-hybrid-crystals.
+
+---
+
 *Supplementary Information generated: 2026-06-26*
